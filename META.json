@@ -1,0 +1,57 @@
+{
+   "abstract" : "Find or build bison, the parser generator",
+   "author" : [
+      "Graham Ollis <plicease@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142690",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Alien-bison",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.28"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Alien::Base" : "0.005",
+            "Capture::Tiny" : "0",
+            "File::chdir" : "0",
+            "Module::Build" : "0.28"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Alien::Base" : "0.005",
+            "base" : "0",
+            "perl" : "5.006"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.94"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/plicease/Alien-bison/issues"
+      },
+      "homepage" : "http://perl.wdlabs.com/Alien-bison",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/plicease/Alien-bison.git",
+         "web" : "https://github.com/plicease/Alien-bison"
+      }
+   },
+   "version" : "0.05"
+}
+
