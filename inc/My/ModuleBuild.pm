@@ -32,7 +32,7 @@ sub new
     pattern  => qr{^bison-3\.0\.2\.tar\.gz$},
   };
 
-  if($ENV{ALIEN_FORCE} || do { local $quiet = 1; $class->alien_check_installed_version })
+  if($ENV{ALIEN_FORCE} || do { local $quiet = 1; ! $class->alien_check_installed_version })
   {
     $args{alien_bin_requires} = { 'Alien::m4' => 0, 'Alien::patch' => '0.03', };
   }
