@@ -1,5 +1,8 @@
 Revision history for Alien-bison
 
+0.06      2014-11-19 15:10:02 -0500
+  - registry detection fix for older perls (thanks @vikasnkumar++ GH Alien::Base #93)
+
 0.05      2014-11-19 14:44:52 -0500
   - first release to CPAN
   - fix build failure when finding existing bison install

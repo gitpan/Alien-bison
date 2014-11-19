@@ -25,4 +25,4 @@ resources:
   bugtracker: https://github.com/plicease/Alien-bison/issues
   homepage: http://perl.wdlabs.com/Alien-bison
   repository: git://github.com/plicease/Alien-bison.git
-version: '0.05'
+version: '0.06'
